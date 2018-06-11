@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css"/>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<style>
+canvas {
+  background-image: url('fondo/fondo.gif');
+}
+body{
+  background-image: url('fondo/pantalla.gif');
+}
+</style>
+
+</head>
+<body>
+
+<div id="inicio">
+    <h2 id="nombre">INTRODUCE TU NOMBRE</h2>
+    <input type="text" id="texto_nombre">
+    <br>
+    <br>
+    <button id="boton">Play</button>
+</div>
+
+<canvas id="myCanvas" width="700px" height="500px"></canvas>
+
+<div id="datos">
+  <h2>Jugador:</h2>
+<h3 id="usuario"></h3>
+</div>
+
+	<audio id="predeterminada">
+    <source src="audio/rubius.mp3" type="audio/mp3">
+  </audio>
+  <audio id="perder">
+    <source src="audio/llorica.mp3" type="audio/mp3">
+  </audio>
+  <audio id="ganar">
+    <source src="audio/victoria.mp3" type="audio/mp3">
+  </audio>
+  <audio id="colision">
+    <source src="audio/choque.mp3" type="audio/mp3">
+  </audio>
+
+<script type="text/javascript" src="javascript/javascript.js" ></script>
+<script type="text/javascript" src="javascript/sweetalert.min.js"></script>
+
+
+
+</body>
+</html>
+
+ <!--problemas con el .pause del audio predeterminado, la pantalla con el height, el fondo del canvas y la pantalla de inicio-->

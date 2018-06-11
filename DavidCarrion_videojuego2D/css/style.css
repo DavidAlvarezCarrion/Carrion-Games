@@ -1,0 +1,46 @@
+ body{
+
+background-size: 100%;
+width: 90%;
+height: 80%;
+}
+
+
+canvas {
+background-size: 100%;
+border-style: Solid;
+ display: block;
+ margin: 0 auto;
+ margin-top:10%;
+ }
+
+#inicio{
+  background:#889ccf;
+  background-size: 100%;
+  width: 50%;
+  height: 55%;
+  margin-left: 22%;
+   overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+
+#nombre{
+  margin-top:15%;
+}
+
+#datos{
+  background: #889ccf;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 15%;
+  width: 15%;
+  height: 20%;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+border: 2px solid #5878ca;
+}

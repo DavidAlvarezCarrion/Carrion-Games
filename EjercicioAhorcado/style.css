@@ -1,0 +1,178 @@
+body{
+	background-image: url("imagenes/fondo.png");
+}
+
+form{
+margin-top:2%;
+align-content: center;
+}
+
+
+#nombreUsuario{
+	text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+		font-family: helvetica;
+		font-style: italic;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+#usuario{
+	font-family: helvetica;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: helvetica;
+	font-style: italic;
+	background-color: #1883ba;
+	border-radius: 6px;
+	border: 2px solid #0016b0;
+}
+
+#contenedor{
+	margin-top: 68px;
+	background-color: black;
+	width: 68%;
+	margin-left: 222px;
+	height:550px;
+}
+
+#ahorcadofoto img{
+	width: 150px;
+	height: 100px;
+}
+#ahorcadofoto{
+	width: 8%;
+	margin-left: 300px;
+	border: 3px double #006505;
+	border-radius: 6px;
+	border-color: black;
+	float: left;
+}
+
+#textos{
+	width: 30%;
+	float:left;
+	margin-left: 30px;
+	font-family: Roboto;
+	font-size: 12px;
+}
+
+#textos p {
+	font-size: 14px;
+	color:grey;
+}
+
+#iconos img{
+	width:30%;
+	float:left;
+	width: 50px;
+	height: 50px;
+}
+
+#boton{
+	text-decoration: none;
+		width: 60px;
+		height: 50px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #AEB5B2;
+    border-radius: 10px;
+    border: 3px double #006505;
+}
+
+#juegonuevo{
+	text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+		font-family: helvetica;
+		font-style: italic;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+#limpiarbtn{
+	text-decoration: none;
+		padding: 10px;
+		font-weight: 200;
+		font-size: 20px;
+		color: #ffffff;
+		font-family: helvetica;
+		font-style: italic;
+		background-color: #1883ba;
+		border-radius: 6px;
+		border: 2px solid #0016b0;
+		text-align: left;
+}
+
+#juegonuevo:hover{
+	color: #1883ba;
+  background-color: #ffffff;
+}
+
+#limpiarbtn:hover{
+	color: #1883ba;
+  background-color: #ffffff;
+}
+.munieco{
+	width: 200px;
+	height: 180px;
+	border-radius: 10px;
+	font-family: helvetica;
+	font-size: 20px;
+	background-color: #AEB5B2;
+	border-color: #006505;
+}
+
+#palabra{
+	height: 40px;
+	width: 400px;
+	border-radius: 10px;
+	background-color: #AEB5B2;
+	border-color: #AEB5B2;
+}
+
+.textopalabra{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+#recuento{
+	text-decoration: none;
+		padding: 5px;
+		font-size: 15px;
+		color: black;
+		font-family: helvetica;
+		font-style: italic;
+		background-color: #B0B9FF;
+		border-radius: 6px;
+		border: 2px solid #0016b0;
+		text-align: left;
+		margin-left: 100px;
+}
+
+
+#scores{
+	text-decoration: none;
+		padding: 5px;
+		font-size: 20px;
+		color: #ffffff;
+		font-family: helvetica;
+		background-color: #1883ba;
+		border-radius: 6px;
+		border: 2px solid #0016b0;
+		text-align: left;
+}
